@@ -18,12 +18,12 @@ const Index = () => {
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-3">
-              <img 
+              <img style={{borderRadius:"50%"}}
                 src="/lovable-uploads/1606dbd9-e5f2-4a27-b88e-820d9baad768.png" 
                 alt="Timely.ai logo" 
                 className="w-10 h-10"
               />
-              <h1 className="text-2xl font-bold text-primary-foreground">Timely.ai</h1>
+              <h1 className="text-2xl font-bold text-primary-foreground">Sutra.ai</h1>
             </div>
             <nav className="hidden md:flex space-x-6">
               <button 
