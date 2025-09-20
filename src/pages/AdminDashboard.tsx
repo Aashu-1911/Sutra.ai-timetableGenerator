@@ -73,7 +73,7 @@ const AdminDashboard = () => {
           <Card className="bg-card/50 backdrop-blur-sm shadow-card hover:shadow-elegant transition-all duration-300">
             <CardHeader>
               <div className="flex items-center space-x-3">
-                <div className="w-12 h-12 bg-gradient-to-br from-secondary to-secondary-light rounded-lg flex items-center justify-center">
+                <div className="w-12 h-12 bg-gradient-to-br from-primary to-primary-light rounded-lg flex items-center justify-center">
                   <Plus className="w-6 h-6 text-primary-foreground" />
                 </div>
                 <div>
@@ -83,18 +83,11 @@ const AdminDashboard = () => {
               </div>
             </CardHeader>
             <CardContent className="space-y-3">
-              <Button className="w-full justify-start bg-secondary hover:bg-secondary-light">
+              <Button className="w-full justify-start bg-primary hover:bg-primary-light">
                 <Plus className="w-4 h-4 mr-2" />
-                Add Faculty Data
+                Import Data
               </Button>
-              <Button variant="outline" className="w-full justify-start border-secondary text-secondary hover:bg-secondary hover:text-primary-foreground">
-                <Plus className="w-4 h-4 mr-2" />
-                Import Subjects
-              </Button>
-              <Button variant="outline" className="w-full justify-start border-secondary text-secondary hover:bg-secondary hover:text-primary-foreground">
-                <Plus className="w-4 h-4 mr-2" />
-                Configure Rooms
-              </Button>
+              
             </CardContent>
           </Card>
           {/* Generate Timetable */}

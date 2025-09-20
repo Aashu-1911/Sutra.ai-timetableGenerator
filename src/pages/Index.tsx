@@ -50,7 +50,7 @@ const Index = () => {
             <div>
               <h1 className="text-5xl font-bold text-primary mb-6 leading-tight">
                 Welcome to 
-                <span className="text-primary-light block">Timely.ai</span>
+                <span className="text-primary-light block">Sutra.ai</span>
               </h1>
               <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
                 Revolutionize your academic scheduling with AI-powered timetable generation. 
